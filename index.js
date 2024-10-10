@@ -8,7 +8,7 @@ const reverseString = (string) => {
     // i >= 0 becuase we are starting at the last index while decrementing (?)
     // when i turns into -1 it will stop
     //next piece is creating a new string
-    empty += str[i];
+    empty += string[i];
     //this is building out a new string
     //it will go from being empty to having 'o'
   }
